@@ -18,6 +18,7 @@ Before you track down a mentor for help, go through the following checklist to m
     * Boot into your laptop's BIOS (or ask a mentor for help!) to make sure that you have Hardware-assisted [virtualization, SLAT, and DEP](https://developer.microsoft.com/en-us/windows/holographic/install_the_tools) turned on
 
 ## Unity Errors
+* "Error CS0227: Unsafe code requires the `unsafe' command line option to be specified" - this occurs if you don't have the correct libraries in your directory folder. You can either delete the Sharing folder from your Assets (if you aren't networking) or add in the files. Check [this post](https://forums.hololens.com/discussion/2745/holotoolkit-issues) for more information. 
 * "Error building Player: IOException: Win32 IO returned 112" - this is an error that the OS will throw in Unity if you attempt to build your app without enough available disk space. Check that you room - sometimes applications and files build up! 
 
 * Cannot convert from packagename.class.Example to Example - you may find an error similar to this in your project if your plugins have the same class names. To check if this is the case in your project, search your asset for the Example class that is throwing an error, and see if more than one script result shows up. If so, you may need to refactor one of them, or, alternatively, you can use the full packagename.class.Example class in the lines throwing an error to differentiate.
