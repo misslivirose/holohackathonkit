@@ -9,7 +9,7 @@ Event wifi can be spotty, so you'll be best off if you download all of the neces
 You will need:
 * Visual Studio 2015 with Update 3
 * The Windows 10 SDK
-* Unity HoloLens Technical Preview
+* Unity 5.5 or later
 
 Optionally, you will need:
 * The HoloLens Emulator to test your applications on (Requires Win 10)
@@ -34,7 +34,7 @@ You should also bookmark the [HoloLens Developer main site](https://www.microsof
 When it's time to program your application, the best way to get started with your app will probably be a clean Unity project. You'll also likely want to grab the HoloTookKit-Unity package from GitHub to use in your project. 
 
 ### Create a new Project in Unity
-1. Double check that you have the [latest HoloLens Technical Preview from Unity](https://unity3d.com/partners/microsoft/hololens#download).
+1. Double check that you have Unity 5.5 or greater.
 
 2. Download the [HoloToolKit-Unity](https://github.com/Microsoft/HoloToolkit-Unity/) project as a zip folder from GitHub. 
 
