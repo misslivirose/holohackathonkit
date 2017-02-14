@@ -5,7 +5,7 @@ While hackathon mentors are awesome++, there are a few things that you can do to
 Before you track down a mentor for help, go through the following checklist to make sure that you're not hitting some of the most basic bugs:
 
 1. Check the version of Visual Studio 2015 you're running and make sure that Update 3 is installed.
-2. Make sure that you have an up to date HoloLens Technical Preview Unity installation. You can check that you have a HoloLens build by going to Programs & Features > Unity and making sure that the version you are using has -HTP at the end of the name. Example: Unity HoloLens 5.4.0f3-HTP
+2. Make sure that you are using Unity 5.5 or later
 3. Confirm that you have the Windows 10 SDK installed. You can check this by opening up Visual Studio, clicking 'New Project', and seeing if there is an option for Windows Universal under Visual C# (you don't have to actually create the project, just see if the option is there)
 4. Enable developer mode on your local machine
 5. See if the problem reproduces when you try a different deployment option (e.g. if you can't deploy over USB, try Wi-Fi, and vice-versa)
